@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F26AD0D5F5A526DCA54A9A5 /* Pods_Mycarster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF3789B16FED7307BA560D3 /* Pods_Mycarster.framework */; };
+		782CE7E7200BDAFA00571B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CE7E6200BDAFA00571B96 /* AppDelegate.swift */; };
+		782CE7EC200BDAFA00571B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782CE7EA200BDAFA00571B96 /* Main.storyboard */; };
+		782CE7EF200BDAFA00571B96 /* Mycarster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 782CE7ED200BDAFA00571B96 /* Mycarster.xcdatamodeld */; };
+		782CE7F1200BDAFA00571B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782CE7F0200BDAFA00571B96 /* Assets.xcassets */; };
+		782CE7F4200BDAFA00571B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782CE7F2200BDAFA00571B96 /* LaunchScreen.storyboard */; };
+		782CE7FF200BDAFB00571B96 /* MycarsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CE7FE200BDAFB00571B96 /* MycarsterTests.swift */; };
+		782CE80A200BDAFB00571B96 /* MycarsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CE809200BDAFB00571B96 /* MycarsterUITests.swift */; };
+		782CE81A200BF03C00571B96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782CE819200BF03C00571B96 /* LoginViewController.swift */; };
+		782CE81E200C001400571B96 /* DynamsoftBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782CE81D200C001400571B96 /* DynamsoftBarcodeReader.framework */; };
+		782CE820200C005500571B96 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 782CE81F200C005500571B96 /* libc++.tbd */; };
+		789C2922200FDC6A00EBC0EF /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C2921200FDC6A00EBC0EF /* itemCell.swift */; };
+		789C2924200FE43F00EBC0EF /* alertHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C2923200FE43F00EBC0EF /* alertHeaderCell.swift */; };
+		789C2926200FE45500EBC0EF /* alertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C2925200FE45500EBC0EF /* alertCell.swift */; };
+		789C2928200FE50A00EBC0EF /* searchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C2927200FE50A00EBC0EF /* searchResultViewController.swift */; };
+		789C292A200FED0E00EBC0EF /* itemHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C2929200FED0E00EBC0EF /* itemHeaderCell.swift */; };
+		789C292C2010060C00EBC0EF /* contactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C292B2010060C00EBC0EF /* contactCell.swift */; };
+		789C292E201008ED00EBC0EF /* inspectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789C292D201008ED00EBC0EF /* inspectionCell.swift */; };
+		789D57E6200C29DC00436471 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789D57E5200C29DB00436471 /* Main.strings */; };
+		78A0F140200DE3EB00BE9666 /* support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0F13F200DE3EB00BE9666 /* support.swift */; };
+		78A0F142200DE81C00BE9666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0F141200DE81C00BE9666 /* ViewController.swift */; };
+		78A0F144200DE83000BE9666 /* DbrManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A0F143200DE83000BE9666 /* DbrManager.swift */; };
+		78A5054720110A9B00491BB0 /* visitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A5054620110A9B00491BB0 /* visitCell.swift */; };
+		D233479DB920939953EF8A83 /* Pods_MycarsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D24194D8ACF88F9AF94F8 /* Pods_MycarsterUITests.framework */; };
+		DB01C270D8B21E7F4F64840B /* Pods_MycarsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF7447A7B927A72F26AA94D /* Pods_MycarsterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782CE7FB200BDAFB00571B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782CE7DB200BDAFA00571B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782CE7E2200BDAFA00571B96;
+			remoteInfo = Mycarster;
+		};
+		782CE806200BDAFB00571B96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782CE7DB200BDAFA00571B96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782CE7E2200BDAFA00571B96;
+			remoteInfo = Mycarster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9A9AB4F053A60B1AC1FB7C /* Pods-Mycarster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mycarster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mycarster/Pods-Mycarster.debug.xcconfig"; sourceTree = "<group>"; };
+		172F1A53FF2246922FEE965E /* Pods-MycarsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MycarsterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MycarsterTests/Pods-MycarsterTests.release.xcconfig"; sourceTree = "<group>"; };
+		242DC34CCBB620A81CEE63AA /* Pods-Mycarster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mycarster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mycarster/Pods-Mycarster.release.xcconfig"; sourceTree = "<group>"; };
+		2FF7447A7B927A72F26AA94D /* Pods_MycarsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MycarsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F41D21713E215AC7DB44CF8 /* Pods-MycarsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MycarsterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MycarsterUITests/Pods-MycarsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		782CE7E3200BDAFA00571B96 /* Carster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782CE7E6200BDAFA00571B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		782CE7EB200BDAFA00571B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782CE7EE200BDAFA00571B96 /* Mycarster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mycarster.xcdatamodel; sourceTree = "<group>"; };
+		782CE7F0200BDAFA00571B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782CE7F3200BDAFA00571B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782CE7F5200BDAFA00571B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782CE7FA200BDAFB00571B96 /* MycarsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MycarsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782CE7FE200BDAFB00571B96 /* MycarsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycarsterTests.swift; sourceTree = "<group>"; };
+		782CE800200BDAFB00571B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782CE805200BDAFB00571B96 /* MycarsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MycarsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782CE809200BDAFB00571B96 /* MycarsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MycarsterUITests.swift; sourceTree = "<group>"; };
+		782CE80B200BDAFB00571B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782CE819200BF03C00571B96 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		782CE81D200C001400571B96 /* DynamsoftBarcodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamsoftBarcodeReader.framework; path = SDK/DynamsoftBarcodeReader.framework; sourceTree = "<group>"; };
+		782CE81F200C005500571B96 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		789C2921200FDC6A00EBC0EF /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		789C2923200FE43F00EBC0EF /* alertHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertHeaderCell.swift; sourceTree = "<group>"; };
+		789C2925200FE45500EBC0EF /* alertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alertCell.swift; sourceTree = "<group>"; };
+		789C2927200FE50A00EBC0EF /* searchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchResultViewController.swift; sourceTree = "<group>"; };
+		789C2929200FED0E00EBC0EF /* itemHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemHeaderCell.swift; sourceTree = "<group>"; };
+		789C292B2010060C00EBC0EF /* contactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactCell.swift; sourceTree = "<group>"; };
+		789C292D201008ED00EBC0EF /* inspectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inspectionCell.swift; sourceTree = "<group>"; };
+		789D57E5200C29DB00436471 /* Main.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Main.strings; sourceTree = "<group>"; };
+		78A0F13C200DCCFC00BE9666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		78A0F13F200DE3EB00BE9666 /* support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = support.swift; sourceTree = "<group>"; };
+		78A0F141200DE81C00BE9666 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78A0F143200DE83000BE9666 /* DbrManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbrManager.swift; sourceTree = "<group>"; };
+		78A5054620110A9B00491BB0 /* visitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitCell.swift; sourceTree = "<group>"; };
+		78D17CCBB90C77F690AC418D /* Pods-MycarsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MycarsterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MycarsterTests/Pods-MycarsterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF3789B16FED7307BA560D3 /* Pods_Mycarster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mycarster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A582BFBB352B9D5A8102B1 /* Pods-MycarsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MycarsterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MycarsterUITests/Pods-MycarsterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC7D24194D8ACF88F9AF94F8 /* Pods_MycarsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MycarsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782CE7E0200BDAFA00571B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782CE820200C005500571B96 /* libc++.tbd in Frameworks */,
+				782CE81E200C001400571B96 /* DynamsoftBarcodeReader.framework in Frameworks */,
+				6F26AD0D5F5A526DCA54A9A5 /* Pods_Mycarster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE7F7200BDAFB00571B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB01C270D8B21E7F4F64840B /* Pods_MycarsterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE802200BDAFB00571B96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D233479DB920939953EF8A83 /* Pods_MycarsterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782CE7DA200BDAFA00571B96 = {
+			isa = PBXGroup;
+			children = (
+				782CE7E5200BDAFA00571B96 /* Mycarster */,
+				782CE7FD200BDAFB00571B96 /* MycarsterTests */,
+				782CE808200BDAFB00571B96 /* MycarsterUITests */,
+				782CE7E4200BDAFA00571B96 /* Products */,
+				D4C5E4C22FB4A7ED82427FC2 /* Pods */,
+				782CE81D200C001400571B96 /* DynamsoftBarcodeReader.framework */,
+				D0E594DDB2E54AD4F3B81FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		782CE7E4200BDAFA00571B96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782CE7E3200BDAFA00571B96 /* Carster.app */,
+				782CE7FA200BDAFB00571B96 /* MycarsterTests.xctest */,
+				782CE805200BDAFB00571B96 /* MycarsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782CE7E5200BDAFA00571B96 /* Mycarster */ = {
+			isa = PBXGroup;
+			children = (
+				782CE818200BDB4900571B96 /* Views */,
+				782CE817200BDB3200571B96 /* storyboard */,
+				782CE7E6200BDAFA00571B96 /* AppDelegate.swift */,
+				782CE7F0200BDAFA00571B96 /* Assets.xcassets */,
+				782CE7F5200BDAFA00571B96 /* Info.plist */,
+				782CE7ED200BDAFA00571B96 /* Mycarster.xcdatamodeld */,
+			);
+			path = Mycarster;
+			sourceTree = "<group>";
+		};
+		782CE7FD200BDAFB00571B96 /* MycarsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				782CE7FE200BDAFB00571B96 /* MycarsterTests.swift */,
+				782CE800200BDAFB00571B96 /* Info.plist */,
+			);
+			path = MycarsterTests;
+			sourceTree = "<group>";
+		};
+		782CE808200BDAFB00571B96 /* MycarsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782CE809200BDAFB00571B96 /* MycarsterUITests.swift */,
+				782CE80B200BDAFB00571B96 /* Info.plist */,
+			);
+			path = MycarsterUITests;
+			sourceTree = "<group>";
+		};
+		782CE817200BDB3200571B96 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				789D57E5200C29DB00436471 /* Main.strings */,
+				782CE7EA200BDAFA00571B96 /* Main.storyboard */,
+				782CE7F2200BDAFA00571B96 /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		782CE818200BDB4900571B96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78A0F143200DE83000BE9666 /* DbrManager.swift */,
+				78A0F141200DE81C00BE9666 /* ViewController.swift */,
+				782CE819200BF03C00571B96 /* LoginViewController.swift */,
+				789C2927200FE50A00EBC0EF /* searchResultViewController.swift */,
+				789C2921200FDC6A00EBC0EF /* itemCell.swift */,
+				789C2923200FE43F00EBC0EF /* alertHeaderCell.swift */,
+				789C2925200FE45500EBC0EF /* alertCell.swift */,
+				789C2929200FED0E00EBC0EF /* itemHeaderCell.swift */,
+				78A0F13F200DE3EB00BE9666 /* support.swift */,
+				789C292B2010060C00EBC0EF /* contactCell.swift */,
+				789C292D201008ED00EBC0EF /* inspectionCell.swift */,
+				78A5054620110A9B00491BB0 /* visitCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0E594DDB2E54AD4F3B81FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782CE81F200C005500571B96 /* libc++.tbd */,
+				8EF3789B16FED7307BA560D3 /* Pods_Mycarster.framework */,
+				2FF7447A7B927A72F26AA94D /* Pods_MycarsterTests.framework */,
+				DC7D24194D8ACF88F9AF94F8 /* Pods_MycarsterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4C5E4C22FB4A7ED82427FC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F9A9AB4F053A60B1AC1FB7C /* Pods-Mycarster.debug.xcconfig */,
+				242DC34CCBB620A81CEE63AA /* Pods-Mycarster.release.xcconfig */,
+				78D17CCBB90C77F690AC418D /* Pods-MycarsterTests.debug.xcconfig */,
+				172F1A53FF2246922FEE965E /* Pods-MycarsterTests.release.xcconfig */,
+				4F41D21713E215AC7DB44CF8 /* Pods-MycarsterUITests.debug.xcconfig */,
+				D8A582BFBB352B9D5A8102B1 /* Pods-MycarsterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782CE7E2200BDAFA00571B96 /* Mycarster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782CE80E200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "Mycarster" */;
+			buildPhases = (
+				D0D413B3DE1A726D641B3B4D /* [CP] Check Pods Manifest.lock */,
+				782CE7DF200BDAFA00571B96 /* Sources */,
+				782CE7E0200BDAFA00571B96 /* Frameworks */,
+				782CE7E1200BDAFA00571B96 /* Resources */,
+				DAF8E909B04F30D3BF6DB921 /* [CP] Embed Pods Frameworks */,
+				A442DA44B6EA994FDB8D786C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mycarster;
+			productName = Mycarster;
+			productReference = 782CE7E3200BDAFA00571B96 /* Carster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782CE7F9200BDAFB00571B96 /* MycarsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782CE811200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "MycarsterTests" */;
+			buildPhases = (
+				F795414B8A3BEE40A6305B78 /* [CP] Check Pods Manifest.lock */,
+				782CE7F6200BDAFB00571B96 /* Sources */,
+				782CE7F7200BDAFB00571B96 /* Frameworks */,
+				782CE7F8200BDAFB00571B96 /* Resources */,
+				13125104386DCE4942E973BC /* [CP] Embed Pods Frameworks */,
+				E97B8D92B66E9B1C95DFED14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782CE7FC200BDAFB00571B96 /* PBXTargetDependency */,
+			);
+			name = MycarsterTests;
+			productName = MycarsterTests;
+			productReference = 782CE7FA200BDAFB00571B96 /* MycarsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782CE804200BDAFB00571B96 /* MycarsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782CE814200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "MycarsterUITests" */;
+			buildPhases = (
+				DE20F82D9BC52B7CC34F56B6 /* [CP] Check Pods Manifest.lock */,
+				782CE801200BDAFB00571B96 /* Sources */,
+				782CE802200BDAFB00571B96 /* Frameworks */,
+				782CE803200BDAFB00571B96 /* Resources */,
+				DCA6698388DD795A51915C92 /* [CP] Embed Pods Frameworks */,
+				597E8ABE35A2D8CC5D909FA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782CE807200BDAFB00571B96 /* PBXTargetDependency */,
+			);
+			name = MycarsterUITests;
+			productName = MycarsterUITests;
+			productReference = 782CE805200BDAFB00571B96 /* MycarsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782CE7DB200BDAFA00571B96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Mycarster;
+				TargetAttributes = {
+					782CE7E2200BDAFA00571B96 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					782CE7F9200BDAFB00571B96 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 782CE7E2200BDAFA00571B96;
+					};
+					782CE804200BDAFB00571B96 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 782CE7E2200BDAFA00571B96;
+					};
+				};
+			};
+			buildConfigurationList = 782CE7DE200BDAFA00571B96 /* Build configuration list for PBXProject "Mycarster" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782CE7DA200BDAFA00571B96;
+			productRefGroup = 782CE7E4200BDAFA00571B96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782CE7E2200BDAFA00571B96 /* Mycarster */,
+				782CE7F9200BDAFB00571B96 /* MycarsterTests */,
+				782CE804200BDAFB00571B96 /* MycarsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782CE7E1200BDAFA00571B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782CE7F4200BDAFA00571B96 /* LaunchScreen.storyboard in Resources */,
+				782CE7F1200BDAFA00571B96 /* Assets.xcassets in Resources */,
+				782CE7EC200BDAFA00571B96 /* Main.storyboard in Resources */,
+				789D57E6200C29DC00436471 /* Main.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE7F8200BDAFB00571B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE803200BDAFB00571B96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13125104386DCE4942E973BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MycarsterTests/Pods-MycarsterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		597E8ABE35A2D8CC5D909FA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MycarsterUITests/Pods-MycarsterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A442DA44B6EA994FDB8D786C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mycarster/Pods-Mycarster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D413B3DE1A726D641B3B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mycarster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF8E909B04F30D3BF6DB921 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mycarster/Pods-Mycarster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mycarster/Pods-Mycarster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA6698388DD795A51915C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MycarsterUITests/Pods-MycarsterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE20F82D9BC52B7CC34F56B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MycarsterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97B8D92B66E9B1C95DFED14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MycarsterTests/Pods-MycarsterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F795414B8A3BEE40A6305B78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MycarsterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782CE7DF200BDAFA00571B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A0F144200DE83000BE9666 /* DbrManager.swift in Sources */,
+				789C2924200FE43F00EBC0EF /* alertHeaderCell.swift in Sources */,
+				789C292E201008ED00EBC0EF /* inspectionCell.swift in Sources */,
+				78A0F142200DE81C00BE9666 /* ViewController.swift in Sources */,
+				789C2926200FE45500EBC0EF /* alertCell.swift in Sources */,
+				789C292C2010060C00EBC0EF /* contactCell.swift in Sources */,
+				789C2928200FE50A00EBC0EF /* searchResultViewController.swift in Sources */,
+				78A0F140200DE3EB00BE9666 /* support.swift in Sources */,
+				789C292A200FED0E00EBC0EF /* itemHeaderCell.swift in Sources */,
+				782CE81A200BF03C00571B96 /* LoginViewController.swift in Sources */,
+				782CE7EF200BDAFA00571B96 /* Mycarster.xcdatamodeld in Sources */,
+				789C2922200FDC6A00EBC0EF /* itemCell.swift in Sources */,
+				782CE7E7200BDAFA00571B96 /* AppDelegate.swift in Sources */,
+				78A5054720110A9B00491BB0 /* visitCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE7F6200BDAFB00571B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782CE7FF200BDAFB00571B96 /* MycarsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782CE801200BDAFB00571B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782CE80A200BDAFB00571B96 /* MycarsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782CE7FC200BDAFB00571B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782CE7E2200BDAFA00571B96 /* Mycarster */;
+			targetProxy = 782CE7FB200BDAFB00571B96 /* PBXContainerItemProxy */;
+		};
+		782CE807200BDAFB00571B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782CE7E2200BDAFA00571B96 /* Mycarster */;
+			targetProxy = 782CE806200BDAFB00571B96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		782CE7EA200BDAFA00571B96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782CE7EB200BDAFA00571B96 /* Base */,
+				78A0F13C200DCCFC00BE9666 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782CE7F2200BDAFA00571B96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782CE7F3200BDAFA00571B96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782CE80C200BDAFB00571B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		782CE80D200BDAFB00571B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782CE80F200BDAFB00571B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9A9AB4F053A60B1AC1FB7C /* Pods-Mycarster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZS365724C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
+				INFOPLIST_FILE = Mycarster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.capture;
+				PRODUCT_NAME = Carster;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782CE810200BDAFB00571B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242DC34CCBB620A81CEE63AA /* Pods-Mycarster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UZS365724C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
+				INFOPLIST_FILE = Mycarster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.capture;
+				PRODUCT_NAME = Carster;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		782CE812200BDAFB00571B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D17CCBB90C77F690AC418D /* Pods-MycarsterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = MycarsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.MycarsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mycarster.app/Mycarster";
+			};
+			name = Debug;
+		};
+		782CE813200BDAFB00571B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172F1A53FF2246922FEE965E /* Pods-MycarsterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = MycarsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.MycarsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mycarster.app/Mycarster";
+			};
+			name = Release;
+		};
+		782CE815200BDAFB00571B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F41D21713E215AC7DB44CF8 /* Pods-MycarsterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = MycarsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.MycarsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mycarster;
+			};
+			name = Debug;
+		};
+		782CE816200BDAFB00571B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A582BFBB352B9D5A8102B1 /* Pods-MycarsterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M484P4E7DQ;
+				INFOPLIST_FILE = MycarsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycarster.MycarsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mycarster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782CE7DE200BDAFA00571B96 /* Build configuration list for PBXProject "Mycarster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782CE80C200BDAFB00571B96 /* Debug */,
+				782CE80D200BDAFB00571B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782CE80E200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "Mycarster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782CE80F200BDAFB00571B96 /* Debug */,
+				782CE810200BDAFB00571B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782CE811200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "MycarsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782CE812200BDAFB00571B96 /* Debug */,
+				782CE813200BDAFB00571B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782CE814200BDAFB00571B96 /* Build configuration list for PBXNativeTarget "MycarsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782CE815200BDAFB00571B96 /* Debug */,
+				782CE816200BDAFB00571B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		782CE7ED200BDAFA00571B96 /* Mycarster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				782CE7EE200BDAFA00571B96 /* Mycarster.xcdatamodel */,
+			);
+			currentVersion = 782CE7EE200BDAFA00571B96 /* Mycarster.xcdatamodel */;
+			path = Mycarster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 782CE7DB200BDAFA00571B96 /* Project object */;
+}

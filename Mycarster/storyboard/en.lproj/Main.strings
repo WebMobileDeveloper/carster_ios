@@ -1,0 +1,45 @@
+
+/* Class = "UINavigationItem"; title = "Barcode Types"; ObjectID = "2vw-Mp-IbK"; */
+"2vw-Mp-IbK.title" = "Barcode Types";
+
+/* Class = "UIBarButtonItem"; title = "Type >"; ObjectID = "5Tx-hC-c9w"; */
+"5Tx-hC-c9w.title" = "Type >";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "GuJ-HS-zRx"; */
+"GuJ-HS-zRx.placeholder" = "Email address";
+
+/* Class = "UILabel"; text = "VIN NUMBER"; ObjectID = "L2K-2o-cRa"; */
+"L2K-2o-cRa.text" = "VIN NUMBER";
+
+/* Class = "UILabel"; text = "QRCode"; ObjectID = "L6a-gj-JEW"; */
+"L6a-gj-JEW.text" = "QRCode";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "Rof-aF-DLU"; */
+"Rof-aF-DLU.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "PDF417"; ObjectID = "VK1-GM-E1s"; */
+"VK1-GM-E1s.text" = "PDF417";
+
+/* Class = "UILabel"; text = "DataMatrix"; ObjectID = "Z2M-UN-h1w"; */
+"Z2M-UN-h1w.text" = "DataMatrix";
+
+/* Class = "UINavigationItem"; title = "Dynamsoft Barcode"; ObjectID = "bAZ-ef-xlf"; */
+"bAZ-ef-xlf.title" = "Dynamsoft Barcode";
+
+/* Class = "UILabel"; text = "Align the barcode within the square"; ObjectID = "e1c-pO-t9K"; */
+"e1c-pO-t9K.text" = "Align the barcode within the square";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "iqc-YS-szV"; */
+"iqc-YS-szV.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = " Flash off"; ObjectID = "p3M-Fp-gyU"; */
+"p3M-Fp-gyU.normalTitle" = " Flash off";
+
+/* Class = "UILabel"; text = "Linear"; ObjectID = "rgu-gu-8zM"; */
+"rgu-gu-8zM.text" = "Linear";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "yOP-iB-tMA"; */
+"yOP-iB-tMA.text" = "Don't have an account?";
+
+/* Class = "UILabel"; text = "Please get a barcode by tapped barcode image and send it to server."; ObjectID = "yle-z8-11J"; */
+"yle-z8-11J.text" = "Please get a barcode by tapped barcode image and send it to server.";

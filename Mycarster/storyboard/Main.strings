@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "PDF417"; ObjectID = "6LE-gG-N5z"; */
+"6LE-gG-N5z.text" = "PDF417";
+
+/* Class = "UINavigationItem"; title = "Dynamsoft Barcode"; ObjectID = "9o4-Uj-dep"; */
+"9o4-Uj-dep.title" = "Dynamsoft Barcode";
+
+/* Class = "UIBarButtonItem"; title = "Type >"; ObjectID = "JOX-Br-acN"; */
+"JOX-Br-acN.title" = "Type >";
+
+/* Class = "UINavigationItem"; title = "Barcode Types"; ObjectID = "O29-VR-tos"; */
+"O29-VR-tos.title" = "Barcode Types";
+
+/* Class = "UILabel"; text = "Align the barcode within the square"; ObjectID = "OIO-68-Eaw"; */
+"OIO-68-Eaw.text" = "Align the barcode within the square";
+
+/* Class = "UIButton"; normalTitle = " Flash off"; ObjectID = "Qvt-4Y-XOV"; */
+"Qvt-4Y-XOV.normalTitle" = " Flash off";
+
+/* Class = "UILabel"; text = "DataMatrix"; ObjectID = "UwU-t5-TXA"; */
+"UwU-t5-TXA.text" = "DataMatrix";
+
+/* Class = "UILabel"; text = "QRCode"; ObjectID = "nv2-3e-YNF"; */
+"nv2-3e-YNF.text" = "QRCode";
+
+/* Class = "UILabel"; text = "Linear"; ObjectID = "pZl-YL-h7w"; */
+"pZl-YL-h7w.text" = "Linear";
